@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Hello! Your Flask app is live on Render."
+    return "Hello Irene <3! Your Flask app is live on Render."
 
 @app.route('/run-script')
 def run_script():
